@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050607">
+<meta name="description" content="Platrack — seu caminho inteligente até a platina no PlayStation.">
+<title>Platrack — Your path to Platinum</title>
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<nav class="nav">
+  <a href="#home" class="logo">
+    <span class="logo-symbol"></span>
+    <span>PLATRACK</span>
+  </a>
+  <div class="nav-links">
+    <a href="#concept">Conceito</a>
+    <a href="#product">Produto</a>
+    <a href="#grc">GRC</a>
+    <a href="#roadmap">Roadmap</a>
+  </div>
+  <a class="nav-cta" href="#product">VIEW PRODUCT ↗</a>
+</nav>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div class="hero-orb"></div>
+
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <div class="eyebrow">PLAYSTATION TROPHY COMPANION</div>
+      <h1>PLAT<span>TRACK</span></h1>
+      <p>
+        Um companion app que transforma troféus, coletáveis e objetivos perdíveis
+        em uma rota clara até a platina.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#product">Explorar o produto <b>↗</b></a>
+        <a class="btn ghost" href="#concept">Ver conceito</a>
+      </div>
+      <div class="hero-stats">
+        <div><small>PLATFORM</small><strong>PlayStation</strong></div>
+        <div><small>FIRST RELEASE</small><strong>Mobile</strong></div>
+        <div><small>END GOAL</small><strong>Platinum / 100%</strong></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="world">
+        <div class="world-ui">
+          <span>PROJECT ECLIPSE / CHAPTER 06</span>
+          <span class="scan"><i class="scan-dot"></i>TRACKING ACTIVE</span>
+        </div>
+        <div class="target"></div>
+        <div class="world-title">
+          <small>PLATPATH / LIVE ROUTE</small>
+          <strong>North District</strong>
+          <p>2 missable collectibles detected before Chapter 7.</p>
+        </div>
+      </div>
+
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-head">
+          <small>PLATRACK / NOW PLAYING</small><span>D</span>
+        </div>
+        <div class="game-mini">
+          <div class="game-mini-top">
+            <div>
+              <small class="game-kicker">PROJECT ECLIPSE</small>
+              <h3>Platinum route</h3>
+            </div>
+            <span class="pct">64%</span>
+          </div>
+          <div class="bar"><span></span></div>
+          <div class="mini-data">
+            <div><small>TROPHIES</small><strong>31 / 48</strong></div>
+            <div><small>MISSABLE</small><strong>03</strong></div>
+            <div><small>ETA</small><strong>08H</strong></div>
+          </div>
+          <div class="alert">
+            <small>MISSABLE ALERT / A-07</small>
+            <strong>Não avance ainda.</strong>
+            <p>2 itens da área atual ficarão indisponíveis.</p>
+          </div>
+          <div class="phone-button">OPEN PLATPATH →</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee">
+  <div class="marquee-track">
+    <span>PLATPATH</span><span>MISSABLE ALERTS</span><span>COLLECTIBLE TRACKING</span><span>SPOILER SAFE</span><span>PLAYSTATION FIRST</span>
+    <span>PLATPATH</span><span>MISSABLE ALERTS</span><span>COLLECTIBLE TRACKING</span><span>SPOILER SAFE</span><span>PLAYSTATION FIRST</span>
+  </div>
+</div>
+
+<section class="section statement" id="concept">
+  <div class="index">01 / CONCEPT</div>
+  <h2>Platinar não deveria depender de <em>memória + 14 guias</em> abertos.</h2>
+  <div class="statement-foot">
+    <p>
+      A Platrack não tenta ser mais uma wiki. Ela organiza o que o jogador precisa fazer
+      <strong class="inline-strong">agora</strong>, de acordo com seu progresso, riscos de perder itens
+      e o caminho mais eficiente até a platina.
+    </p>
+    <strong>Você joga.<br>A Platrack lembra.</strong>
+  </div>
+</section>
+
+<section class="section bento">
+  <article class="card big">
+    <span class="card-label">CORE SYSTEM / 01</span>
+    <h3>PlatPath</h3>
+    <p>Uma rota dinâmica que muda conforme o jogador avança.</p>
+
+    <div class="route-map">
+      <svg viewBox="0 0 900 420" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="gl" x1="0" x2="1">
+            <stop offset="0" stop-color="#64efff" stop-opacity=".15"/>
+            <stop offset=".5" stop-color="#64efff"/>
+            <stop offset="1" stop-color="#7c8790" stop-opacity=".25"/>
+          </linearGradient>
+        </defs>
+        <path d="M20 320 C150 280 180 110 330 140 S540 350 660 250 760 90 880 120" fill="none" stroke="url(#gl)" stroke-width="3"/>
+        <circle cx="110" cy="276" r="7" fill="#71d5a4"/>
+        <circle cx="330" cy="140" r="9" fill="#64efff"/>
+        <circle cx="660" cy="250" r="7" fill="#39444d"/>
+        <circle cx="820" cy="126" r="7" fill="#39444d"/>
+        <path d="M0 370H900M0 300H900M0 230H900M0 160H900M0 90H900" stroke="rgba(255,255,255,.045)" stroke-width="1"/>
+        <path d="M90 0V420M180 0V420M270 0V420M360 0V420M450 0V420M540 0V420M630 0V420M720 0V420M810 0V420" stroke="rgba(255,255,255,.035)" stroke-width="1"/>
+      </svg>
+      <div class="route-pop pop1">DONE / CH. 01–04</div>
+      <div class="route-pop pop2">NOW / NORTH DISTRICT</div>
+      <div class="route-pop pop3">NEXT / ECLIPSE</div>
+    </div>
+  </article>
+
+  <article class="card small">
+    <span class="card-label">RISK DETECTION / 02</span>
+    <h3>Missable Radar</h3>
+    <p>Mostra o que pode ser perdido antes que o jogador avance demais.</p>
+    <div class="radar">
+      <div class="radar-sweep"></div>
+      <i class="radar-dot d1"></i><i class="radar-dot d2"></i><i class="radar-dot d3"></i>
+    </div>
+  </article>
+
+  <article class="card small">
+    <span class="card-label">COMPLETION / 03</span>
+    <h3>100% visível.</h3>
+    <p>Coletáveis, troféus e regiões deixam de ser uma lista perdida em algum guia.</p>
+    <div class="trophy-shell">
+      <svg viewBox="0 0 260 260">
+        <defs>
+          <linearGradient id="trophyG" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0" stop-color="#ffffff"/>
+            <stop offset=".3" stop-color="#aab6bf"/>
+            <stop offset=".58" stop-color="#64efff"/>
+            <stop offset="1" stop-color="#53616c"/>
+          </linearGradient>
+        </defs>
+        <path d="M86 49h88v44c0 34-20 59-44 59S86 127 86 93V49Z" fill="url(#trophyG)"/>
+        <path d="M86 63H56v21c0 28 18 45 43 45" fill="none" stroke="#9cabb5" stroke-width="10"/>
+        <path d="M174 63h30v21c0 28-18 45-43 45" fill="none" stroke="#9cabb5" stroke-width="10"/>
+        <rect x="122" y="147" width="16" height="42" fill="#9facb6"/>
+        <path d="M91 209h78l-9-27h-60z" fill="url(#trophyG)"/>
+      </svg>
+    </div>
+  </article>
+</section>
+
+<section class="product-wrap" id="product">
+  <div class="section">
+    <div class="product-head">
+      <div class="index">02 / PRODUCT</div>
+      <h2>Menos conteúdo.<br><span>Mais direção.</span></h2>
+    </div>
+
+    <div class="product">
+      <aside class="tabs">
+        <button class="tab active" data-tab="overview"><b>Overview</b><span>01</span></button>
+        <button class="tab" data-tab="path"><b>PlatPath</b><span>02</span></button>
+        <button class="tab" data-tab="alerts"><b>Alerts</b><span>03</span></button>
+        <div class="tab-foot">PLATRACK / PRODUCT CONCEPT / 2026</div>
+      </aside>
+
+      <div class="view">
+        <section class="panel active" id="overview">
+          <div class="panel-top">
+            <div><small>PROJECT ECLIPSE / PS5</small><h3>Player overview</h3></div>
+            <span class="chip">SYNCED / 19:32</span>
+          </div>
+
+          <div class="dashboard">
+            <div class="dash-left">
+              <div class="score-row"><small>PLATINUM PROGRESS</small><span class="score">64%</span></div>
+              <div class="progress-big">
+                <div class="progress-ring"><div><strong>31</strong><small>OF 48 TROPHIES</small></div></div>
+              </div>
+              <div class="dash-mini">
+                <div><small>MISSABLE</small><strong>03</strong></div>
+                <div><small>COLLECTIBLES</small><strong>12</strong></div>
+                <div><small>ETA</small><strong>~08H</strong></div>
+              </div>
+            </div>
+
+            <div class="dash-right">
+              <div class="next-rec">
+                <small>NEXT / PLATPATH</small>
+                <h4>North District</h4>
+                <p>Faça os dois coletáveis restantes antes de iniciar a missão Eclipse.</p>
+                <div class="route-btn">OPEN ROUTE ↗</div>
+              </div>
+              <div class="risk-box">
+                <small>ACTIVE RISK</small>
+                <div class="risk-count">03</div>
+                <h4>Missable objectives</h4>
+                <p>Três pontos exigem atenção antes do fechamento da campanha.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="path">
+          <div class="panel-top">
+            <div><small>PLATPATH / ROUTE 01</small><h3>Optimized route</h3></div>
+            <span class="chip">5 STAGES</span>
+          </div>
+
+          <div class="route-list">
+            <div class="route-row"><span class="status">DONE</span><div><strong>Chapters 1–4</strong><small>12 trophies completed</small></div><span>100%</span><span>✓</span></div>
+            <div class="route-row active"><span class="status">NOW</span><div><strong>North District</strong><small>3 collectibles + 1 trophy</small></div><span>72%</span><span>→</span></div>
+            <div class="route-row"><span class="status">NEXT</span><div><strong>Mission: Eclipse</strong><small>1 important choice</small></div><span>—</span><span>03</span></div>
+            <div class="route-row"><span class="status">QUEUE</span><div><strong>Post-game cleanup</strong><small>7 remaining trophies</small></div><span>—</span><span>04</span></div>
+            <div class="route-row"><span class="status">FINAL</span><div><strong>Platinum</strong><small>Completion target</small></div><span>100%</span><span>🏆</span></div>
+          </div>
+        </section>
+
+        <section class="panel" id="alerts">
+          <div class="panel-top">
+            <div><small>MISSABLE MONITOR</small><h3>Active alerts</h3></div>
+            <span class="chip danger-chip">03 ACTIVE</span>
+          </div>
+
+          <div class="alert-list">
+            <div class="alert-row"><span class="code">A-07</span><div><strong>2 collectibles become unavailable after Chapter 7</strong><p>North District / current save compatible</p></div><span>ACT NOW</span></div>
+            <div class="alert-row"><span class="code warning-code">A-11</span><div><strong>One dialogue choice affects a trophy path</strong><p>Spoiler-safe explanation enabled</p></div><span>REVIEW</span></div>
+            <div class="alert-row"><span class="code ok-code">A-18</span><div><strong>Side quest can be completed during cleanup</strong><p>No replay required</p></div><span>LOW RISK</span></div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section values" id="grc">
+  <div class="values-head">
+    <div class="index">03 / GRC</div>
+    <h2>O produto nasce com governança, risco e compliance.</h2>
+  </div>
+
+  <div class="values-grid">
+    <article class="value">
+      <span class="value-num">G / 01</span>
+      <h3>Governance</h3>
+      <p>Responsabilidades, políticas, aprovação de integrações e decisões claras sobre o uso de dados.</p>
+      <div class="bottom">OWNERSHIP / POLICIES / DECISION RIGHTS</div>
+    </article>
+    <article class="value">
+      <span class="value-num">R / 02</span>
+      <h3>Risk</h3>
+      <p>Falhas de integração, indisponibilidade, exposição de dados e informações incorretas precisam ser tratadas como risco de negócio.</p>
+      <div class="bottom">IDENTIFY / TREAT / MONITOR</div>
+    </article>
+    <article class="value">
+      <span class="value-num">C / 03</span>
+      <h3>Compliance</h3>
+      <p>LGPD, privacidade, propriedade intelectual, termos da plataforma e princípio do menor privilégio desde o desenho inicial.</p>
+      <div class="bottom">PRIVACY / LEGAL / LEAST PRIVILEGE</div>
+    </article>
+  </div>
+</section>
+
+<section class="roadmap" id="roadmap">
+  <div class="roadmap-bg"></div>
+  <div class="section roadmap-inner">
+    <div>
+      <div class="index">04 / ROADMAP</div>
+      <h2>MOBILE<br>FIRST.</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="t-line current"><span>NOW / 01</span><div><strong>Mobile Companion</strong><p>Troféus, PlatPath, coletáveis e alertas perdíveis.</p></div></div>
+      <div class="t-line"><span>NEXT / 02</span><div><strong>Platrack Pro</strong><p>Personalização, estatísticas e experiência premium.</p></div></div>
+      <div class="t-line"><span>FUTURE / 03</span><div><strong>Console Experience</strong><p>Integração oficial no console caso exista suporte e autorização da plataforma.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="end">
+  <div>
+    <small>PLATRACK / YOUR PATH TO PLATINUM</small>
+    <h2>PLAY.<br>TRACK.<br>PLAT.</h2>
+    <p>Uma experiência criada para quem sempre quis platinar, mas não queria transformar diversão em planilha.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>PLATRACK © 2026 / ACADEMIC STARTUP CONCEPT</span>
+  <span>SECURITY GOVERNANCE, RISK & COMPLIANCE</span>
+  <a href="#home">BACK TO TOP ↑</a>
+</footer>
+
+<script src="src/app.js"></script>
+</body>
+</html>
